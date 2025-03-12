@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+@import "tailwindcss";
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+/* Sayfa numaralarını ve butonları yatay hizalamak */
+.paginate {
+  display: flex;
+  gap: 10px; /* Sayfa numaraları arasına boşluk ekler */
+  list-style-type: none;
+  padding: 0;
+}
+
+.paginate a {
+  text-decoration: none;
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #333;
+}
+
+.paginate a:hover {
+  background-color: #f0f0f0;
+  border-color: #aaa;
+}
+
+.paginate .selected {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}
+
+.paginate .disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+/* From Uiverse.io by shadowfax29 */
+.svgbox {
+  --blue: rgb(148, 66, 63);
+  stroke: var(--blue);
+  stroke-width: 5;
+  fill: none;
+  stroke-dasharray: 50, 14;
+  stroke-dashoffset: 192;
+  animation: dash_682 1.4s linear infinite;
+}
+
+@keyframes dash_682 {
+  72.5% {
+    opacity: 1;
+  }
+
+  to {
+    stroke-dashoffset: 1;
+  }
+}
