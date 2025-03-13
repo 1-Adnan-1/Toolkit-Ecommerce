@@ -6,9 +6,11 @@ const Footer = () => {
       <div className="max-w-12/12 mx-auto px-4 flex flex-col gap-80 md:flex-row justify-between">
         {/* Hakkımızda Bölümü */}
         <div className="md:w-1/3">
-          <h3 className="text-2xl font-semibold mb-4">ShopZone Hakkında</h3>
+          <h3 className="text-2xl font-semibold mb-4 font-custom">
+            ShopyZone Hakkında
+          </h3>
           <p>
-            ShopZone, ihtiyacınız olan her şeyi güvenle bulabileceğiniz online
+            ShopyZone, ihtiyacınız olan her şeyi güvenle bulabileceğiniz online
             alışveriş mağazanızdır.
           </p>
         </div>
@@ -18,17 +20,17 @@ const Footer = () => {
           <h3 className="text-2xl font-semibold mb-4">Müşteri Hizmetleri</h3>
           <ul>
             <li>
-              <a href="/yardim" className="hover:underline">
+              <a href="#" className="hover:underline">
                 Yardım Merkezi
               </a>
             </li>
             <li>
-              <a href="/kargo" className="hover:underline">
+              <a href="#" className="hover:underline">
                 Kargo Bilgileri
               </a>
             </li>
             <li>
-              <a href="/iadeler" className="hover:underline">
+              <a href="#" className="hover:underline">
                 İade & Değişim
               </a>
             </li>
@@ -41,7 +43,7 @@ const Footer = () => {
           <ul>
             <li>
               <a
-                href="https://www.facebook.com"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:underline"
@@ -51,7 +53,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="https://www.instagram.com"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:underline"
@@ -61,7 +63,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="https://www.twitter.com"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:underline"
@@ -74,8 +76,8 @@ const Footer = () => {
       </div>
 
       {/* Footer Alt Bölüm */}
-      <div className="text-center text-sm mt-8">
-        <p>&copy; 2025 ShopZone. Tüm hakları saklıdır.</p>
+      <div className="text-center text-sm mt-14 bg-gray-100 shadow-xl rounded-md">
+        <p>&copy; 2025 ShopyZone. Tüm hakları saklıdır.</p>
       </div>
     </footer>
   );

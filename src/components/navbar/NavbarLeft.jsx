@@ -5,7 +5,7 @@ const NavbarLeft = () => {
   return (
     <Link to="/" className="text-5xl flex items-center font-bold">
       <img src="./logo.png" alt="logo" width={130} />
-      ShopyZone
+      <span className="font-custom">ShopyZone</span>
     </Link>
   );
 };

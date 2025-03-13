@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import { getCartTotal } from "../redux/cardSlice"; // Assuming 'cardSlice' is a typo for 'cartSlice'
+import { getCartTotal } from "../redux/cardSlice";
 import CartComp from "../components/cart/CartComp";
 
 const Cart = () => {
@@ -9,14 +9,11 @@ const Cart = () => {
   const navigate = useNavigate();
   const { carts, totalAmount, itemCount } = useSelector((state) => state.carts);
 
-  // Log for debugging
   console.log(carts, totalAmount, itemCount, "carts");
 
-  // Update total whenever 'carts' changes
   useEffect(() => {
     dispatch(getCartTotal());
-  }, [dispatch, carts]); // Add 'carts' to dependency array
-
+  }, [dispatch, carts]);
   const goToHomePage = () => {
     navigate("/");
   };

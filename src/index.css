@@ -1,15 +1,23 @@
+/* Fontlar*/
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Emblema+One&display=swap");
 
 @import "tailwindcss";
 
-body {
-  font-family: "Nunito", sans-serif;
+@layer utilities {
+  .font-custom {
+    font-family: "Emblema One", system-ui;
+  }
 }
 
-/* Sayfa numaralarını ve butonları yatay hizalamak */
+body {
+  font-family: "poppins", sans-serif;
+}
+
 .paginate {
   display: flex;
-  gap: 10px; /* Sayfa numaraları arasına boşluk ekler */
+  gap: 10px;
   list-style-type: none;
   padding: 0;
 }

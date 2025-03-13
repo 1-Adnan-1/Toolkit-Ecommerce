@@ -3,17 +3,17 @@ import { BiSearch } from "react-icons/bi";
 import { AiOutlineHeart } from "react-icons/ai";
 import { SlBasket } from "react-icons/sl";
 import { useDispatch, useSelector } from "react-redux";
-import { getCartTotal } from "../../redux/cardSlice"; // Assuming 'cardSlice' should be 'cartSlice'
+import { getCartTotal } from "../../redux/cardSlice";
 import { useNavigate } from "react-router-dom";
 
 const NavbarRight = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
-  const { carts, itemCount } = useSelector((state) => state.carts); // Add 'carts' to track changes
+  const { carts, itemCount } = useSelector((state) => state.carts);
 
   useEffect(() => {
     dispatch(getCartTotal());
-  }, [dispatch, carts]); // Add 'carts' to dependency array
+  }, [dispatch, carts]);
 
   return (
     <div className="flex items-center gap-8">
