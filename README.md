@@ -17,15 +17,15 @@ Bu proje, **React** ve **Redux Toolkit** kullanılarak geliştirilmiş bir e-tic
 
 ## 📚 Kullanılan Teknolojiler
 
-- **React** – UI bileşenleri için.
-- **Redux Toolkit** – Global state yönetimi.
-- **React Router DOM** – Sayfa yönlendirmeleri.
-- **Axios** – API istekleri için.
-- **Tailwind CSS** – Stil yönetimi.
-- **React Slick & Slick Carousel** – Slider bileşeni.
-- **React Paginate** – Sayfalama yönetimi.
-- **React Toastify** – Bildirim sistemi.
-- **React Icons** – İkon setleri.
+- **React** – Kullanıcı arayüzü bileşenlerini oluşturmak için.
+- **Redux Toolkit** – Uygulama genelinde durumu (state) yönetmek için.
+- **React Router DOM** – Sayfa yönlendirme ve gezinme işlemleri için.
+- **Axios** – API isteklerini gerçekleştirmek için.
+- **Tailwind CSS** – Esnek ve özelleştirilebilir stiller oluşturmak için.
+- **React Slick & Slick Carousel** – Kaydırılabilir (slider) bileşenleri oluşturmak için.
+- **React Paginate** – Sayfalama (pagination) işlemlerini yönetmek için.
+- **React Toastify** – Kullanıcıya bildirimler göstermek için.
+- **React Icons** – Uygulamada kullanılabilecek geniş bir ikon kütüphanesi sağlamak için.
 
 ## GİF
 
