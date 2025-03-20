@@ -30,3 +30,4 @@ Bu proje, **React** ve **Redux Toolkit** kullanılarak geliştirilmiş bir e-tic
 ## GİF
 
 ![Gif](/public/ekran.gif)
+# Toolkit-Ecommerce
