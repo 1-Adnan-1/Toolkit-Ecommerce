@@ -3,7 +3,6 @@ import SliderCom from "../components/home/SliderCom";
 import Sorting from "../components/home/Sorting";
 import Category from "../components/home/Category";
 import Products from "../components/home/Products";
-import Footer from "../components/Footer";
 
 const Home = () => {
   const [sort, setSort] = useState("");
@@ -17,7 +16,6 @@ const Home = () => {
         <Category setCategory={setCategory} />
         <Products category={category} sort={sort} />
       </div>
-      <Footer />
     </div>
   );
 };
